@@ -23,13 +23,13 @@ class _ContactDetailsState extends State<ContactDetails> {
   @override
   Widget build(BuildContext context) {
     List<String> actions = <String>[
-      'Edit',
-      'Delete'
+      'แก้ไข',
+      'ลบ'
     ];
 
     void showDeleteConfirmation() {
       Widget cancelButton = TextButton(
-        child: Text('Cancel'),
+        child: Text('ยกเลิก',style: TextStyle(color: Colors.black)),
         onPressed: () {
           Navigator.of(context).pop();
         },
@@ -38,7 +38,10 @@ class _ContactDetailsState extends State<ContactDetails> {
         style: ButtonStyle(
           backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
         ),
-        child: Text('Delete'),
+        child: Text(
+        'ลบ',
+        style: TextStyle(color: Colors.black), 
+       ),
         onPressed: () async {
           await ContactsService.deleteContact(widget.contact.info);
           widget.onContactDelete(widget.contact);
@@ -46,8 +49,9 @@ class _ContactDetailsState extends State<ContactDetails> {
         },
       );
       AlertDialog alert= AlertDialog(
-        title: Text('Delete contact?'),
-        content: Text('Are you sure you want to delete this contact?'),
+        title: Text('ลบรายชื่อ?'),
+        content: Text('คุณแน่ใจหรือไม่ว่าต้องการลบรายชื่อที่อยู่ติดต่อนี้?'),
+        backgroundColor: Colors.white, 
         actions: <Widget>[
           cancelButton,
           deleteButton
@@ -64,7 +68,7 @@ class _ContactDetailsState extends State<ContactDetails> {
 
     void onAction(String action) async {
       switch(action) {
-        case 'Edit':
+        case 'แก้ไข':
           try {
             Contact updatedContact = await ContactsService.openExistingContact(widget.contact.info);
             setState(() {
@@ -82,7 +86,7 @@ class _ContactDetailsState extends State<ContactDetails> {
             }
           }
           break;
-        case 'Delete':
+        case 'ลบ':
           showDeleteConfirmation();
           break;
       }
@@ -135,16 +139,16 @@ class _ContactDetailsState extends State<ContactDetails> {
             Expanded(
               child: ListView(shrinkWrap: true, children: <Widget>[
                 ListTile(
-                  title: Text("Name"),
+                  title: Text("ชื่อ"),
                   trailing: Text(widget.contact.info.givenName ?? ""),
                 ),
                 ListTile(
-                  title: Text("Family name"),
+                  title: Text("ชื่อสมาชิกในครอบครัว"),
                   trailing: Text(widget.contact.info.familyName ?? ""),
                 ),
                 Column(
                   children: <Widget>[
-                    ListTile(title: Text("Phones")),
+                    ListTile(title: Text("เบอร์")),
                     Column(
                       children: widget.contact.info.phones!
                         .map(

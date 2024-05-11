@@ -127,13 +127,14 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+
   @override
   Widget build(BuildContext context) {
     bool isSearching = searchController.text.isNotEmpty;
     bool listItemsExist =
         ((isSearching == true && contactsFiltered.length > 0) ||
             (isSearching != true && contacts.length > 0));
-     return Scaffold(
+      return Scaffold(
     appBar: PreferredSize(
       preferredSize: Size.fromHeight(80.0),
       child: AppBar(
@@ -189,7 +190,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: TextField(
                 controller: searchController,
                 decoration: InputDecoration(
-                    labelText: 'Search',
+                    labelText: 'ค้นหา',
                     border: new OutlineInputBorder(
                         borderSide: new BorderSide(
                             color: Theme.of(context).primaryColor)),
@@ -212,8 +213,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.only(top: 40),
                         child: Text(
                           isSearching
-                              ? 'No search results to show'
-                              : 'No contacts exist',
+                              ? 'ไม่มีผลการค้นหาที่จะแสดง'
+                              : 'ไม่มีรายชื่อที่อยู่ติดต่อ',
                           style: TextStyle(color: Colors.grey, fontSize: 20),
                         ))
                 : Container(
@@ -221,8 +222,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: CircularProgressIndicator(),
                     ),
-                  )
+                  ),
           ],
+          
         ),
       ),
     );
