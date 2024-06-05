@@ -30,7 +30,7 @@ This application is built using:
 Download the app from the Google Play Store:
 [![Download on Google Play]
 
-[![Download on Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=com.example.yourapp)](https://play.google.com/store/apps/details?id=com.sosapp.myapp&hl=th-TH)
+(https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=com.example.yourapp)](https://play.google.com/store/apps/details?id=com.sosapp.myapp&hl=th-TH)
 
 
 ## Getting Started
