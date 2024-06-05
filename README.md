@@ -20,6 +20,17 @@ SOS App is an essential tool for emergency calls! It gathers important emergency
 <img src="https://github.com/Nattanan-Petchsuk026/SOS-Safeguard/assets/122779638/1216ac84-8a29-4991-ba87-cc3c7a7cf61a" alt="Screenshot 2" width="200">
 <img src="https://github.com/Nattanan-Petchsuk026/SOS-Safeguard/assets/122779638/dc8670e1-bf1d-4836-8ae3-f76c9bbc1a50" alt="Screenshot 3" width="200">
 
+## Tools Used
+
+This application is built using:
+- **Flutter**
+
+## Download
+
+Download the app from the Google Play Store:
+
+[![Download on Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=com.example.yourapp)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
