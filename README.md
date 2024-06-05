@@ -28,7 +28,6 @@ This application is built using:
 ## Download
 
 Download the app from the Google Play Store:
-[![Download on Google Play]
 
 https://play.google.com/store/apps/details?id=com.sosapp.myapp&hl=th-TH
 
