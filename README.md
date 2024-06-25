@@ -1,8 +1,8 @@
-# SOS App
+# SOS Safeguard App
 
 ![icons](https://github.com/Nattanan-Petchsuk026/SOS-Safeguard/assets/122779638/bb6fe718-1bc9-4b10-a093-d2ee108c9528)
 
-SOS App is an essential tool for emergency calls! It gathers important emergency numbers and locates your current position, making rescue efforts quicker and more efficient. Additionally, it provides information about crucial locations such as police stations, hospitals, and pharmacies in the nearby area. Moreover, users can also add contacts they may need assistance from themselves.
+SOS Safeguard App is an essential tool for emergency calls! It gathers important emergency numbers and locates your current position, making rescue efforts quicker and more efficient. Additionally, it provides information about crucial locations such as police stations, hospitals, and pharmacies in the nearby area. Moreover, users can also add contacts they may need assistance from themselves.
 
 ## Features
 
