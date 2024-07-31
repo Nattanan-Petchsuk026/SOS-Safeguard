@@ -45,7 +45,7 @@ class AntiTrafficking extends StatelessWidget {
                 radius: 25,
                 backgroundColor: Colors.transparent,
                 backgroundImage: AssetImage(
-                    'assets/Anti Trafficking In Person Division 1191.png'),
+                    'assets/technical-service.png'),
               ),
               SizedBox(width: 20),
               Expanded(

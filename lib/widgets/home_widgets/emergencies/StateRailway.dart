@@ -45,7 +45,7 @@ class StateRailway extends StatelessWidget {
                 radius: 25,
                 backgroundColor: Colors.transparent,
                 backgroundImage: AssetImage(
-                    'assets/State_Railway_of_Thailand_Logo.png'),
+                    'assets/train-station.png'),
               ),
               SizedBox(width: 20),
               Expanded(

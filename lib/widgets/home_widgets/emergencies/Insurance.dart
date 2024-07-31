@@ -45,7 +45,7 @@ class Insurance extends StatelessWidget {
                 radius: 25,
                 backgroundColor: Colors.transparent,
                 backgroundImage: AssetImage(
-                    'assets/insurance 1186.png'),
+                    'assets/phone-call.png'),
               ),
               SizedBox(width: 20),
               Expanded(

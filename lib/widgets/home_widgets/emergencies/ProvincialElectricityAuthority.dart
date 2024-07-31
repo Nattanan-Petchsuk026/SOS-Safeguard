@@ -45,7 +45,7 @@ class ProvincialElectricityAuthority extends StatelessWidget {
                 radius: 25,
                 backgroundColor: Colors.transparent,
                 backgroundImage: AssetImage(
-                    'assets/LOGO_PEA.jpg'),
+                    'assets/electric-tower.png'),
               ),
               SizedBox(width: 20),
               Expanded(

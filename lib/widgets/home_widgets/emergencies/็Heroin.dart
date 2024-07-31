@@ -45,7 +45,7 @@ class Heroin extends StatelessWidget {
                 radius: 25,
                 backgroundColor: Colors.transparent,
                 backgroundImage: AssetImage(
-                    'assets/heroin 1138.png'),
+                    'assets/drug-abuse.png'),
               ),
               SizedBox(width: 20),
               Expanded(

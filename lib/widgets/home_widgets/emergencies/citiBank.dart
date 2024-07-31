@@ -45,7 +45,7 @@ class CitiBank extends StatelessWidget {
                 radius: 25,
                 backgroundColor: Colors.transparent,
                 backgroundImage: AssetImage(
-                    'assets/citi bank 1588.png'),
+                    'assets/citi.png'),
               ),
               SizedBox(width: 20),
               Expanded(

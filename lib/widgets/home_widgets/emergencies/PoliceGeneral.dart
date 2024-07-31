@@ -45,7 +45,7 @@ class PoliceGeneral extends StatelessWidget {
                 radius: 25,
                 backgroundColor: Colors.transparent,
                 backgroundImage: AssetImage(
-                    'assets/police general hospital2.png'),
+                    'assets/police hospital.png'),
               ),
               SizedBox(width: 20),
               Expanded(

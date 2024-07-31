@@ -7,7 +7,6 @@ import 'package:sosapp/widgets/home_widgets/menu/EmergencyNumber.dart';
 import 'package:sosapp/widgets/home_widgets/menu/NearHospital.dart';
 import 'package:sosapp/widgets/home_widgets/menu/NearPharmacy.dart';
 import 'package:sosapp/widgets/home_widgets/menu/NearPolice.dart';
-import 'package:sosapp/widgets/live_safe.dart';
 
 
 class HomeScreen extends StatefulWidget {
@@ -33,14 +32,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void onMapFunction(String location) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => LiveSafe(
-          cardType: 'YourCardType',
-        ),
-      ),
-    );
   }
 
  @override

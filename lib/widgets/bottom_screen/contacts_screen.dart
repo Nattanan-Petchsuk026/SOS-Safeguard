@@ -23,6 +23,7 @@ import 'package:sosapp/widgets/home_widgets/emergencies/MentalHealth.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/PWA.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/PoliceGeneral.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/PoliceKp.dart';
+import 'package:sosapp/widgets/home_widgets/emergencies/Policeemergency.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/Pp.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/ProvincialElectricityAuthority.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/RoralRoads.dart';
@@ -34,8 +35,7 @@ import 'package:sosapp/widgets/home_widgets/emergencies/TouristPoliceBureau.dart
 import 'package:sosapp/widgets/home_widgets/emergencies/VajiraHospital.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/WaterEmergency.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/citiBank.dart';
-import 'package:sosapp/widgets/home_widgets/emergencies/copy.dart';
-import 'package:sosapp/widgets/home_widgets/emergencies/greenKplus.dart';
+import 'package:sosapp/widgets/home_widgets/emergencies/Kplus.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/krungkriBank.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/scbBank.dart';
 import 'package:sosapp/widgets/home_widgets/emergencies/tiscoBank.dart';

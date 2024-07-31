@@ -45,7 +45,7 @@ class HighwayPatrol extends StatelessWidget {
                 radius: 25,
                 backgroundColor: Colors.transparent,
                 backgroundImage: AssetImage(
-                    'assets/กองบังคับการตำรวจทางหลวง 1193.png'),
+                    'assets/intersection.png'),
               ),
               SizedBox(width: 20),
               Expanded(
