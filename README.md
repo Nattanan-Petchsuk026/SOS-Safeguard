@@ -25,8 +25,3 @@ SOS Safeguard App is an essential tool for emergency calls! It gathers important
 This application is built using:
 - **Flutter**
 
-## Download
-
-Download the app from the Google Play Store:
-
-https://play.google.com/store/apps/details?id=com.sosapp.myapp&hl=th-TH
